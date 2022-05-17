@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Javscript project for Web Dev</title>
+        <link rel="stylesheet" href="./assets/styles.css" />
+            <!-- take javscript functionality and inject it into html code providing extra functionality to html -->
+        <script src="./script.js" defer></script>
+    </head>
+    <body>
+		<header class="flex">
+			<h1>Random Picture Generator</h1>
+			<button>Generate Random Picture</button>
+		</header>
+
+        <main class="container">
+                    
+                    <input type="text" data-input><!-- I don't really understand why when I remove this line of code it breaks the random image generator -->
+                    <label data-label></label><!-- Same here -->
+
+
+                    <input type="text" name="name">
+                    <button onclick="submit()">add names</button>
+                    <ol></ol>
+
+                    <section class="flex">
+                        <img src="flex-container" alt="flex-container">
+                    </section>
+                    <script src="assets/scripts/app.js"></script>
+            </main>
+    </body>
+</html>
